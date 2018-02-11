@@ -198,15 +198,6 @@
     return ReactPaint;
   }(_react.Component);
 
-  ReactPaint.propTypes = {
-    className: _react.PropTypes.string,
-    style: _react.PropTypes.object.isRequired,
-    height: _react.PropTypes.number,
-    width: _react.PropTypes.number,
-    brushCol: _react.PropTypes.string,
-    lineWidth: _react.PropTypes.number,
-    onDraw: _react.PropTypes.func
-  };
   ReactPaint.defaultProps = {
     className: 'react-paint',
     style: {},
